@@ -1,0 +1,16 @@
+class Person
+	attr_accessor :name, :age
+	def initialize (name, age)
+		@name = name
+		@age = age
+	end
+
+	def name
+		puts "bob"
+	end
+
+	def age
+		puts 44
+	end
+
+end 
